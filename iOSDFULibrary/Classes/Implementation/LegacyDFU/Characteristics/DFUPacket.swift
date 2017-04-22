@@ -29,7 +29,7 @@ internal class DFUPacket {
         return characteristic.uuid.isEqual(UUID)
     }
     
-    private let PacketSize: UInt32 = 20
+    private let PacketSize: UInt32 = 153
     
     private var characteristic: CBCharacteristic
     private var logger: LoggerHelper
